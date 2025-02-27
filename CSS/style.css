@@ -1,0 +1,87 @@
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; 
+    z-index: 1030;
+    background-color: #007bff; 
+    color: white;
+    padding: 20px; 
+    text-align: center;
+    white-space: normal; 
+}
+
+
+.fixed-header h1 {
+    font-size: 1.5rem; 
+    line-height: 1.5; 
+    margin: 0; 
+}
+
+
+body {
+    margin: 0;
+    padding-top: 50px; 
+}
+
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+
+
+.progress-bar {
+    background-color: #28a745;
+}
+
+.navbar a.nav-link {
+    color: #000 !important; /* Preto */
+}
+
+.navbar a.nav-link:hover {
+    color: #555; /* Um tom mais claro de preto ao passar o mouse */
+}
+
+/* Garante que o logo fique a 64px da esquerda */
+.navbar-brand {
+    margin-left: 64px;
+}
+
+/* Centraliza os links */
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Ajusta os itens da navbar para alinhamento central */
+.navbar-nav .nav-item {
+    display: inline-block;
+}
+
+/* Adiciona espaçamento entre os links */
+.navbar-nav .nav-link {
+    padding: 0 10px;
+}
+
+footer {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  .progress-bar {
+    background-color: #28a745;
+}
